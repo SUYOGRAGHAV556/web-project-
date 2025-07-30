@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> WeBuild form</title>
+  <link rel="stylesheet" href="form.css">
+  <style>
+    .r1{
+       color: orange;
+       font-style: bold;
+    }
+  </style>
+</head>
+<body>
+  <header class="head1">
+    <nav class="navbar">
+      <div class="logo">
+       <h2 class="r1">We</h2>
+            <h2 class="r2">Build</h2>
+            </div>
+    </nav>
+
+  </header>
+  <br>
+  <br>
+
+  <center> <h2>Booking appointment Form</h2></center>
+  <br>
+  <div class="container">
+    <form class="form1">
+      <label for="name">Client / Company Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email ID:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="3" required></textarea><br><br>
+      
+      <label for="contractor">Select your contractor</label><br>
+      <select id="contractor" name ="contractor" required>
+        <option value="">-- Select contractor --</option>
+        <option value="Mr. Andre Ruth">Mr. Andre Ruth</option>
+        <option value="Mr. Rishav Saheb">Mr. Rishav Saheb</option>
+        <option value="Harirao Patil">Harirao Patil</option>
+      </select><br><br>
+
+      <label for="timeSlot">Select Time Slot:</label><br>
+      <select id="timeSlot" name="timeSlot" required>
+        <option value="">-- Select a slot --</option>
+        <option value="9am-10am">9 AM - 10 AM</option>
+        <option value="10am-11am">10 AM - 11 AM</option>
+        <option value="2pm-3pm">2 PM - 3 PM</option>
+        <option value="4pm-5pm">4 PM - 5 PM</option>
+      </select><br><br>
+
+      <input class="Submit" type="submit" value="Submit">
+    </form>
+  </div>
+
+  </form>
+  
+
+</body>
+</html>
